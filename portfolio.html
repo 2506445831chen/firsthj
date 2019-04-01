@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="M_Adnan">
+<title>业务体系</title>
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/rs-plugin/css/settings.css" media="screen" />
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/ionicons.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- COLORS -->
+<link rel="stylesheet" id="color" href="css/default.css">
+
+<!-- JavaScripts -->
+<script src="js/modernizr.js"></script>
+
+<!--<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,100' rel='stylesheet' type='text/css'>--->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+<!-- Wrap -->
+<div id="wrap"> 
+  
+  <!-- header -->
+  <header class="header-normal">
+    <div class="sticky">
+      <div class="container"> 
+        <!-- Logo -->
+        <div class="logo"> <a href="#."><img class="img-responsive" src="images/logo.png" alt="" ></a> </div>
+        
+        <!-- Navigation -->
+        <nav class="navbar webimenu"> 
+          <!-- MENU BUTTON RESPONSIVE -->
+          <div class="menu-toggle"> <i class="fa fa-bars"> </i> </div>
+          <!-- NAV -->
+          <ul class="nav ownmenu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我们</a>
+              <!--<ul class="dropdown animated-3s fadeIn">-->
+              <!--<li><a href="index.html">企业介绍</a></li>-->
+              <!--<li><a href="index-1.html">团队介绍</a></li>-->
+              <!--<li><a href="about_1.html">合作伙伴</a></li>-->
+              <!--</ul>-->
+            </li>
+            <li class="active"><a href="portfolio.html">业务体系</a>
+            </li>
+            <li><a href="services.html"> 服务案例 </a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <!--======= HOME MAIN SLIDER =========-->
+  <section class="sub-bnr" data-stellar-background-ratio="0.5" >
+    <!-- shadow -->
+    <div class="tp-bannershadow"></div>
+    <div class="position-center-center">
+      <div class="container">
+        <h3>业务体系</h3>
+        <hr>
+        <ol class="breadcrumb">
+          <li><a href="#">首页</a></li>
+          <li class="active">业务体系</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Content -->
+  <div id="content">
+
+    <!-- 业务体系 -->
+    <section class=" padding-top-150 padding-bottom-150">
+      <div class="container">
+        <div class="heading text-center">
+          <h4>业务体系</h4>
+          <span>Business System</span>
+          <hr>
+        </div>
+        <div>
+          <ul class="filter" style="margin-bottom: 20px">
+            <li class="active"><a href="javascript:void(0)" onclick="business(0)">全部业务</a></li>
+            <li><a href="javascript:void(0)" onclick="business(1)">计算机软硬件</a></li>
+            <li><a href="javascript:void(0)" onclick="business(2)">计算机系统集成及布线</a></li>
+            <li><a href="javascript:void(0)" onclick="business(3)">计算机网络工程</a></li>
+            <li><a href="javascript:void(0)" onclick="business(4)">电子产品</a></li>
+
+          </ul>
+          <ul class="filter" style="margin-top: 20px;">
+            <li><a href="javascript:void(0)" onclick="business(5)">电脑耗材</a></li>
+            <li><a href="javascript:void(0)" onclick="business(6)">计算机软硬件及配件</a></li>
+            <li><a href="javascript:void(0)" onclick="business(7)">普通机械设备</a></li>
+            <li><a href="javascript:void(0)" onclick="business(8)">工艺美术品的销售</a></li>
+            <li><a href="javascript:void(0)" onclick="business(9)">金融方面</a></li>
+
+          </ul>
+        </div>
+        <!-- /.gallery-filter -->
+
+        <div class="row">
+          <div id="isotope-gallery-container" class="isotope">
+
+          </div>
+          <!-- /.isotope-gallery-container -->
+        </div>
+        <div class="team-index">
+          <li class="active" onclick="addMore(0)"></li>
+          <li  onclick="addMore(6)"></li>
+          <li  onclick="addMore(12)"></li>
+        </div>
+      </div>
+    </section>
+
+    <!--screen 点击图标展示大图片-->
+    <div class="screen" id="screen" onclick="closeScreen()">
+      <div class="image">
+        <button type="button" onclick="closeScreen()" class="mfp-close">×</button>
+        <img src="images/offer-img-2.jpg" alt="" class="screenImage">
+      </div>
+    </div>
+    <!-- 业务体系 结束-->
+
+  <!--======= FOOTER =========-->
+    <div class="w3_agile_footer">
+      <div class="row">
+        <p class="col-sm-5">
+          <a href="index.html">首页 </a>
+          <a href="about.html">关于我们 </a>
+          <a href="portfolio.html">业务体系 </a><a href="services.html">服务案列 </a>
+        </p>
+        <div class="col-sm-7" id="address">
+          <p> <i class="fa fa-phone" aria-hidden="true"></i>
+            833-4866/
+            139-1095-0583</p>
+          <p><i class="fa fa-home" aria-hidden="true"></i>
+            山西省太原市小店区 万柏林区万国城12号楼1单元2503</p>
+          <p><i class="fa fa-envelope" aria-hidden="true"></i>
+            zhaow@huijinhua.com</p>
+        </div>
+
+        <div class="fadeInDown">
+          <div style=" width: 54px;height: 54px;position: absolute;top:24px;border-radius: 50%;left: 24px; padding: 2px;background: #00A8FF;display: flex;align-items: center;justify-content: center;">
+            <a href="javascript:void(0)" onclick="getTop()" class="arrow-2">
+              <i class="fa fa-angle-up"></i>
+            </a>
+          </div>
+          <div class="arrow-1"  onclick="getTop()"></div>
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<!-- JavaScripts --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/own-menu.js"></script> 
+<script src="js/jquery.lighter.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/color-switcher.js"></script> 
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  --> 
+<script type="text/javascript" src="rs-plugin/rs-plugin/js/jquery.tp.t.min.js"></script> 
+<script type="text/javascript" src="rs-plugin/rs-plugin/js/jquery.tp.min.js"></script> 
+<script src="js/main.js"></script>
+<!--业务体系-->
+<script src="js/add.js"></script>
+</body>
+</html>
